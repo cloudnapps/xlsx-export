@@ -1,8 +1,13 @@
 {
   "name": "xlsx-export",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Streaming json to xlsx converter",
-  "keywords": ["excel","xlsxjson","json2xlsx","xlsx"],
+  "keywords": [
+    "excel",
+    "xlsxjson",
+    "json2xlsx",
+    "xlsx"
+  ],
   "main": "lib/xlsx-export.js",
   "repository": {
     "type": "git",
@@ -14,9 +19,10 @@
   "author": "Andrew Grachov <DrontXL@yandex.ru> (https://github.com/AndrewGrachov)",
   "license": "ISC",
   "dependencies": {
-    "zip-stream": "^0.3.3",
     "async": "^0.8.0",
-    "node-zip": "^1.1.0"
+    "collections": "3.0.0",
+    "node-zip": "^1.1.0",
+    "zip-stream": "^0.3.3"
   },
   "devDependencies": {
     "mocha": "^1.18.2",
